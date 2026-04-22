@@ -45,7 +45,7 @@ export default function About() {
             src={profileImg}
             width="600"
             height="800"
-            alt="portrait image of Nikunj posing at an event"
+            alt="portrait image of Tony at a conference"
           />
         </div>
         <div className="top-20 sm:sticky md:top-28 lg:top-32 md:w-1/2">
@@ -57,18 +57,19 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am a tech enthusiast since middle school and love to interact with technology!
+              Results-driven Full-Stack Web Developer and IT professional with hands-on 
+              experience building responsive, user-centric web applications and providing 
+              enterprise-grade technical support.
 
               <br></br>
-              <br></br>I have set up my path to pursue the things that excite me the 
-              most! Working on code has now become my passion and I look forward to 
-              convert it into my profession. 😎
+              <br></br>Proficient across the entire development 
+              lifecycle — from translating client requirements into clean, maintainable code 
+              to deploying and maintaining production environments. Demonstrated ability 
+              to work independently and collaborate within cross-functional teams.
               <br></br>
               <br></br>
-              I am currently pursuing a bachelor's degree focused on Computer Science 
-              Engineering. Interested in Web Development, iOS Development & using AI to 
-              my advantage, I would love to be a part of a diverse team of people working 
-              on areas that are in my interest.
+              Passionate about writing efficient code, solving complex problems, and 
+              continuously growing within a technology-first organisation.
             </p>
           </div>
         </div>

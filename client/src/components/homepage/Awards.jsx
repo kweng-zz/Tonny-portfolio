@@ -1,12 +1,12 @@
 import Heading from "../ui/Heading";
-import { awards } from "../../data";
+import { achievements } from "../../data";
 
 export default function Awards({ forwardedRef }) {
   return (
     <section ref={forwardedRef} id="awards" className="nav-change my-[10%]" aria-label="awards and achievements">
       <Heading title="awards" />
       <div className="mt-10 grid gap-6">
-        {awards.map((award, index) => (
+        {achievements.map((award, index) => (
           <article
             key={`${award.title}-${index}`}
             className="rounded-2xl border border-secondary-400/20 bg-secondary-400/5 p-6 md:p-8"
