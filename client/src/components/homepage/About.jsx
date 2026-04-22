@@ -57,19 +57,14 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              Results-driven Full-Stack Web Developer and IT professional with hands-on 
-              experience building responsive, user-centric web applications and providing 
-              enterprise-grade technical support.
-
-              <br></br>
-              <br></br>Proficient across the entire development 
-              lifecycle — from translating client requirements into clean, maintainable code 
-              to deploying and maintaining production environments. Demonstrated ability 
-              to work independently and collaborate within cross-functional teams.
+              I am a Full-Stack Web Developer and IT professional 
+              based in Mombasa, Kenya. I specialize in building responsive, 
+              user-centric web applications and thrive on solving complex problems.
               <br></br>
               <br></br>
-              Passionate about writing efficient code, solving complex problems, and 
-              continuously growing within a technology-first organisation.
+              Whether it&apos;s developing clean front-ends 
+              or robust back-end systems, I am passionate about writing efficient 
+              code and delivering great digital experiences.
             </p>
           </div>
         </div>
