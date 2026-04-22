@@ -1,10 +1,14 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 
 const root = resolve(process.cwd());
 const dataPath = resolve(root, "src/data.js");
-const sitemapPath = resolve(root, "public/sitemap.xml");
-const baseUrl = "https://nikunjmathur.vercel.app";
+const publicDir = resolve(root, "public");
+const sitemapPath = resolve(publicDir, "sitemap.xml");
+const baseUrl = "https://your-portfolio-url.vercel.app";
+
+// Create public folder if it doesn't exist
+mkdirSync(publicDir, { recursive: true });
 
 const dataSource = readFileSync(dataPath, "utf8");
 const slugMatches = [...dataSource.matchAll(/slug:\s*"([^"]+)"/g)];
