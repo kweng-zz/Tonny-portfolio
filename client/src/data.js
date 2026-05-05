@@ -2,6 +2,7 @@
  import kveImg from "./assets/images/kve.png";
  import ecommerceImg from "./assets/images/ecommerce.png";
  import safariImg from "./assets/images/safaris.png";
+ import temboImg from "./assets/images/tembo.png";
 
 export const siteConfig = {
   name: "Tonny Maina",
@@ -371,7 +372,7 @@ export const projects = [
   type: "Front-End Project - Tourism & Discovery",
   year: "2024",
   tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
-  image: "/assets/images/tembo.png",
+  image: temboImg,
   link: "https://kweng-zz.github.io/TemboTrails/",
   liveUrl: "https://kweng-zz.github.io/TemboTrails/",
   featured: true,
