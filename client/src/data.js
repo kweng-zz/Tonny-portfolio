@@ -373,7 +373,7 @@ export const projects = [
   type: "Front-End Project • Tourism & Discovery",
   year: "2024",
   tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
-  image: "", // Add your screenshot import here
+  image: "/assets/images/tembo.png", // Add your screenshot import here
   link: "https://kweng-zz.github.io/TemboTrails/",
   liveUrl: "https://kweng-zz.github.io/TemboTrails/",
   featured: true,
