@@ -360,11 +360,9 @@ export const projects = [
     "Review and rating system per package",
     "SEO optimisation for international safari search traffic"
   ],
-  finalNote: "Papa Jillo Safaris is a reminder that great client work means understanding the market, not just executing a brief. Building for Kenyan tourism means WhatsApp-first, mobile-first, and experience-first — in that order."
+   finalNote: "Papa Jillo Safaris is a reminder that great client work means understanding the market, not just executing a brief. Building for Kenyan tourism means WhatsApp-first, mobile-first, and experience-first - in that order."
 },
-];
-
-{
+{     // <-- NO closing bracket and semicolon here — just a comma and the next object
   slug: "tembo-trails",
   name: "TemboTrails",
   shortName: "TemboTrails",
@@ -373,7 +371,7 @@ export const projects = [
   type: "Front-End Project - Tourism & Discovery",
   year: "2024",
   tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
-  image: "/assets/images/tembo.png", // Add your screenshot import here
+  image: "/assets/images/tembo.png",
   link: "https://kweng-zz.github.io/TemboTrails/",
   liveUrl: "https://kweng-zz.github.io/TemboTrails/",
   featured: true,
@@ -472,7 +470,7 @@ export const projects = [
   ],
   finalNote: "TemboTrails complements Papa Jillo Safaris - while the safari site drives bookings, TemboTrails serves the earlier discovery phase. Together they bookend the tourism customer journey from dreaming to booking."
 }
-
+];   // <-- THIS is where the array closes — AFTER TemboTrails
 export const skills = {
   expertise: [
     "Full-Stack Development",
