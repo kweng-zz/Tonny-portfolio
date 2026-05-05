@@ -364,6 +364,115 @@ export const projects = [
 },
 ];
 
+{
+  slug: "tembo-trails",
+  name: "TemboTrails — kweng-zz.github.io/TemboTrails",
+  shortName: "TemboTrails",
+  tagline: "Discover and explore Kenya's wildlife destinations",
+  description: "A responsive tourism discovery platform showcasing Kenya's national parks and wildlife destinations with an interactive interface, built as a front-end exploration project.",
+  type: "Front-End Project • Tourism & Discovery",
+  year: "2024",
+  tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
+  image: "", // Add your screenshot import here
+  link: "https://kweng-zz.github.io/TemboTrails/",
+  liveUrl: "https://kweng-zz.github.io/TemboTrails/",
+  featured: true,
+  status: "Live on GitHub Pages",
+  role: "Frontend Developer",
+  team: "Solo",
+  platform: "Web Application",
+  tldr: {
+    what: "A discovery platform for Kenya's national parks and wildlife destinations with interactive listings",
+    who: "Tourists and residents looking to explore Kenya's wildlife destinations",
+    challenge: "Creating an engaging, mobile-friendly browsing experience for parks and destinations across Kenya",
+    outcome: "Fully responsive site deployed on GitHub Pages showcasing Kenya's major wildlife destinations",
+    whyItMatters: "Makes Kenya's world-class wildlife destinations discoverable in one clean, accessible web interface"
+  },
+  problem: {
+    intro: "Information about Kenya's national parks is scattered across different tourism sites, making it hard to compare and discover destinations.",
+    points: [
+      "No single, clean interface to browse Kenya's national parks and game reserves",
+      "Tourism information is fragmented across multiple sources with inconsistent presentation",
+      "Mobile users needed a fast, visual way to explore destination options"
+    ],
+    coreInsight: "Before booking a safari, people need to discover and dream — TemboTrails serves that discovery phase."
+  },
+  nonGoals: [
+    "Process bookings or payments",
+    "Include real-time availability or pricing data",
+    "Replace official KWS or tour operator sites"
+  ],
+  systemOverview: {
+    intro: "TemboTrails is built as a browsable discovery experience:",
+    steps: [
+      { title: "Destination Cards", description: "Visual cards showcasing each park with key highlights" },
+      { title: "Interactive Navigation", description: "Filterable and searchable destination listings" },
+      { title: "Detail Views", description: "Dedicated sections for each destination with key information" }
+    ],
+    note: "The focus is on visual browsing and discovery — letting the destinations sell themselves through imagery and clear information."
+  },
+  technicalDecisions: [
+    {
+      title: "Static Front-End Architecture",
+      points: [
+        "No backend required — all content is static and loads instantly",
+        "GitHub Pages deployment for zero-cost, reliable hosting",
+        "Fast load times ideal for users on varying internet speeds"
+      ],
+      outcome: "Lightweight, fast-loading site that works well even on slower Kenyan mobile connections"
+    },
+    {
+      title: "Visual-First Design",
+      points: [
+        "Prioritised large imagery to showcase the beauty of each destination",
+        "Clean card-based layout for easy browsing and comparison",
+        "Responsive design that works from mobile to desktop"
+      ],
+      outcome: "Immersive browsing experience that captures the visual appeal of Kenya's wildlife"
+    }
+  ],
+  techStack: [
+    { label: "Frontend", value: "HTML + CSS + JavaScript" },
+    { label: "Styling", value: "Tailwind CSS" },
+    { label: "Hosting", value: "GitHub Pages" },
+  ],
+  challenges: [
+    {
+      title: "Curating Destination Content",
+      problem: "Each park has unique features, but the interface needed to present them consistently.",
+      fix: "Designed a uniform card structure that adapts to highlight each park's distinct characteristics while maintaining visual consistency"
+    },
+    {
+      title: "Performance with Visual Content",
+      problem: "Heavy imagery could slow down mobile browsing.",
+      fix: "Optimised assets and used lazy loading to maintain fast page loads without sacrificing visual quality"
+    }
+  ],
+  observations: [
+    "Static architecture proved ideal for a discovery platform — fast and reliable",
+    "Visual-first approach engaged users more effectively than text-heavy alternatives",
+    "GitHub Pages provided perfect hosting for this type of project"
+  ],
+  ethics: [
+    "No user tracking or data collection",
+    "All destination information sourced from publicly available data",
+    "Respectful representation of Kenya's wildlife heritage"
+  ],
+  learnings: [
+    "Discovery experiences thrive on strong visuals and clean layout",
+    "Static sites can deliver rich, engaging experiences without a backend",
+    "GitHub Pages is a viable deployment option for front-end projects targeting Kenyan users",
+    "Consistent content structure helps users compare and explore efficiently"
+  ],
+  futureWork: [
+    "Add more parks and reserves as the dataset expands",
+    "Integrate weather data for each destination",
+    "Add a trip planning feature with multi-destination routes",
+    "Include visitor tips and best seasons for each park"
+  ],
+  finalNote: "TemboTrails complements Papa Jillo Safaris — while the safari site drives bookings, TemboTrails serves the earlier discovery phase. Together they bookend the tourism customer journey from dreaming to booking."
+}
+
 export const skills = {
   expertise: [
     "Full-Stack Development",
