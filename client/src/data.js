@@ -366,11 +366,11 @@ export const projects = [
 
 {
   slug: "tembo-trails",
-  name: "TemboTrails — kweng-zz.github.io/TemboTrails",
+  name: "TemboTrails",
   shortName: "TemboTrails",
   tagline: "Discover and explore Kenya's wildlife destinations",
   description: "A responsive tourism discovery platform showcasing Kenya's national parks and wildlife destinations with an interactive interface, built as a front-end exploration project.",
-  type: "Front-End Project • Tourism & Discovery",
+  type: "Front-End Project - Tourism & Discovery",
   year: "2024",
   tools: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Responsive Design"],
   image: "/assets/images/tembo.png", // Add your screenshot import here
@@ -395,7 +395,7 @@ export const projects = [
       "Tourism information is fragmented across multiple sources with inconsistent presentation",
       "Mobile users needed a fast, visual way to explore destination options"
     ],
-    coreInsight: "Before booking a safari, people need to discover and dream — TemboTrails serves that discovery phase."
+    coreInsight: "Before booking a safari, people need to discover and dream - TemboTrails serves that discovery phase."
   },
   nonGoals: [
     "Process bookings or payments",
@@ -409,13 +409,13 @@ export const projects = [
       { title: "Interactive Navigation", description: "Filterable and searchable destination listings" },
       { title: "Detail Views", description: "Dedicated sections for each destination with key information" }
     ],
-    note: "The focus is on visual browsing and discovery — letting the destinations sell themselves through imagery and clear information."
+    note: "The focus is on visual browsing and discovery - letting the destinations sell themselves through imagery and clear information."
   },
   technicalDecisions: [
     {
       title: "Static Front-End Architecture",
       points: [
-        "No backend required — all content is static and loads instantly",
+        "No backend required - all content is static and loads instantly",
         "GitHub Pages deployment for zero-cost, reliable hosting",
         "Fast load times ideal for users on varying internet speeds"
       ],
@@ -449,7 +449,7 @@ export const projects = [
     }
   ],
   observations: [
-    "Static architecture proved ideal for a discovery platform — fast and reliable",
+    "Static architecture proved ideal for a discovery platform - fast and reliable",
     "Visual-first approach engaged users more effectively than text-heavy alternatives",
     "GitHub Pages provided perfect hosting for this type of project"
   ],
@@ -470,7 +470,7 @@ export const projects = [
     "Add a trip planning feature with multi-destination routes",
     "Include visitor tips and best seasons for each park"
   ],
-  finalNote: "TemboTrails complements Papa Jillo Safaris — while the safari site drives bookings, TemboTrails serves the earlier discovery phase. Together they bookend the tourism customer journey from dreaming to booking."
+  finalNote: "TemboTrails complements Papa Jillo Safaris - while the safari site drives bookings, TemboTrails serves the earlier discovery phase. Together they bookend the tourism customer journey from dreaming to booking."
 }
 
 export const skills = {
